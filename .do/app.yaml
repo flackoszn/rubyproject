@@ -1,0 +1,7 @@
+name: sample-jruby
+services:
+- github:
+    branch: jruby
+    deploy_on_push: true
+    repo: digitalocean/sample-ruby
+  name: sample-jruby

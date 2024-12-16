@@ -1,0 +1,7 @@
+spec:
+  name: sample-jruby
+  services:
+  - git:
+      branch: jruby
+      repo_clone_url: https://github.com/digitalocean/sample-ruby.git
+    name: sample-jruby
